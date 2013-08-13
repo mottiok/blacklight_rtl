@@ -12,18 +12,18 @@
   {
     display: block;
     text-indent: -2em;
-    padding-left: 2em;
-    margin-right: 2em;
+    padding-right: 2em;
+    margin-left: 2em;
 
     .search 
     {
-      padding-right: 0.5em;
       padding-left: 0.5em;
+      padding-right: 0.5em;
     }
 
     &:last-child 
     {
-      margin-right: 0;
+      margin-left: 0;
     }
   }
 

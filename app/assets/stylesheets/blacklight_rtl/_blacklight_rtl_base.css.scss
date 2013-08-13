@@ -6,8 +6,6 @@
    which over-rides things in this file. Or of course you can choose
    not to use the Blacklight CSS file at all in your local app. */
 
-
-
 $btnInfoBackground: #9ad0fe;
 
 @import 'blacklight_rtl/blacklight_defaults';
@@ -27,6 +25,7 @@ $btnInfoBackground: #9ad0fe;
 @import "blacklight_rtl/modal";
 
 @import "improved-modal/bootstrap-modal";
+@import "bootstrap_rtl/bootstrap_rtl";
 
 .hide-text {
   width: 1px;
@@ -35,4 +34,14 @@ $btnInfoBackground: #9ad0fe;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
+}
+
+/* TODO: Someone override this two id's with incorrect padding.
+ * Check who is doing this and fix the source */
+#sidebar #sortAndPerPage {
+  padding: 19px;
+}
+
+#sidebar .constraints-container {
+  padding: 19px 19px 9px 19px;
 }

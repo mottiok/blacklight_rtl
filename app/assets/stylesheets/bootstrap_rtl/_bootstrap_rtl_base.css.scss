@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* TODO: split this file into the correct partials inside the bootstrap folder */
+
+/* Button input with a left rounded corner */
+.input-append .btn:last-child {
+  @include border-radius($inputBorderRadius 0  0 $inputBorderRadius);
+}
+
+/* Input text with a right rounded corner */
+.input-append input {
+  @include border-radius(0 $inputBorderRadius $inputBorderRadius 0);
+}
+
+/* Close button used by the lightbox */
+.close {
+  float: left;
+}
+
+/* First and last button inside a button group */
+.btn-group > .btn:first-child {
+  @include border-top-left-radius(0);
+  @include border-bottom-left-radius(0);
+  @include border-top-right-radius($baseBorderRadius);
+  @include border-bottom-right-radius($baseBorderRadius);
+}
+
+.btn-group > .btn:last-child {
+  @include border-top-right-radius(0);
+  @include border-bottom-right-radius(0);
+  @include border-top-left-radius($baseBorderRadius);
+  @include border-bottom-left-radius($baseBorderRadius);
+}
+
+/* RTL each preview inside the documents div */
+.dl-horizontal {
+  dt {
+    float: right;
+    text-align: left;
+  }
+  dd {
+    margin-left: 0;
+    margin-right: $horizontalComponentOffset;
+  }
+}
+
+.form-inline .checkbox input[type="checkbox"] {
+  float: right;
+  margin-left: 3px;
+  margin-right: 0;
+}

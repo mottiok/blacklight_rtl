@@ -3,7 +3,7 @@
 /*!
  * Bootstrap Modal
  *
- * Copyright Jordan Schroter
+ * Copyleft Jordan Schroter
  * Licensed under the Apache License v2.0
  * http://www.apache.org/licenses/LICENSE-2.0
  *
@@ -35,8 +35,8 @@
 	position: fixed;
 	top: 0;
 	bottom: 0;
-	left: 0;
 	right: 0;
+	left: 0;
 	overflow: auto;
 }
 
@@ -74,8 +74,8 @@
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	left: 0;
 	right: 0;
+	left: 0;
 	background: #fff;
 	border-radius: 6px;
 }
@@ -94,7 +94,7 @@
 
 .modal.container {
   width: 940px;
-  margin-left: -470px;
+  margin-right: -470px;
 }
 
 /* Modal Overflow */
@@ -121,7 +121,7 @@
 @media (min-width: 1200px) {
 	.modal.container {
 		width: 1170px;
-		margin-left: -585px;
+		margin-right: -585px;
 	}
 }
 
@@ -130,8 +130,8 @@
 	.modal.container,
 	.modal.modal-overflow 	{
 		top: 1%;
-		right: 1%;
 		left: 1%;
+		right: 1%;
 		bottom: auto;
 		width: auto !important;
 		height: auto !important;
@@ -164,7 +164,7 @@
 .loading-spinner {
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	right: 50%;
 	margin: -12px 0 0 -12px;
 }
 
@@ -172,7 +172,7 @@
 Animate.css - http://daneden.me/animate
 Licensed under the ☺ license (http://licence.visualidiot.com/)
 
-Copyright (c) 2012 Dan Eden*/
+Copyleft (c) 2012 Dan Eden*/
 
 .animated {
 	-webkit-animation-duration: 1s;

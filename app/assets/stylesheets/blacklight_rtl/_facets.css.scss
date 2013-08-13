@@ -5,21 +5,21 @@
   }
   ul {
     padding-top:0.5em;
-    margin-left: 14px;
+    margin-right: 14px;
   }
 
   li
     {
       list-style:none;
-      margin-right:1em;
+      margin-left:1em;
       padding-bottom:0.3em;
-      padding-right: 50px;
-      clear: right;
+      padding-left: 50px;
+      clear: left;
 
     a.remove
     {
       color:#666;
-      margin-left: 0px;
+      margin-right: 0px;
       padding: 3px 5px;
     }
 
@@ -29,15 +29,15 @@
     }
 
     .count {
-      text-align:right;
-      float:right;
-      margin-right: -50px;
+      text-align:left;
+      float:left;
+      margin-left: -70px;
     }
 
     &.more_facets_link {
-      text-align:right;
-      float:right;
-      margin-right: -35px;
+      text-align:left;
+      float:left;
+      margin-left: -55px;
     }
   }
 
@@ -56,13 +56,13 @@
 {
   .sort_options
   {
-    text-align:right;
+    text-align:left;
   }
 
 
   .prev_next_links
   {
-    float:left;
+    float:right;
   }
 
 }
@@ -79,7 +79,7 @@ ul.facet_extended_list
   }
 
    .count {
-     float:right;
+     float:left;
    }
 }
 
@@ -125,10 +125,10 @@ ul.facet_extended_list
 // Navbar button for toggling navbar items in responsive layouts
 // These definitions need to come after '.navbar .btn'
   display: none;
-  float: right;
+  float: left;
   padding: 7px 10px;
-  margin-left: 5px;
   margin-right: 5px;
+  margin-left: 5px;
   @include buttonBackground(darken($navbarBackgroundHighlight, 5%), darken($navbarBackground, 5%));
   @include box-shadow(#{inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075)});
 & .icon-bar {
@@ -151,9 +151,9 @@ ul.facet_extended_list
   }
   /* Chevrons */
   .icon-chevron {
-    float: right;
+    float: left;
     margin-top: 2px;
-    margin-right: -6px;
+    margin-left: -6px;
     opacity: .25;
   }
 
@@ -162,20 +162,20 @@ ul.facet_extended_list
   }
 
   .icon-chevron {
-    @extend .icon-chevron-right;
+    @extend .icon-chevron-left;
     opacity: .5;
   }
 
   .twiddle-open .icon-chevron {
     @extend .icon-chevron-down;
     opacity: 1;
-    padding-right:2px;
+    padding-left:2px;
   }
 
   /* hide the chevron when js isn't supported */
   .no-js & .icon-chevron {
     @extend .icon-chevron-down;
-    padding-right:2px;
+    padding-left:2px;
   }
 
   h5:hover .icon-chevron,
