@@ -60,3 +60,4 @@ TODO
 
   * Split the file `_bootstrap_rtl_base.css.scss` to partials inside the corresponding folder.
   * Check who overwrite the ids `#sidebar #sortAndPerPage` and `#sidebar .constraints-container`.
+  * Remove safely unwanted folders and files like the dummy folder and some controllers.
