@@ -27,6 +27,8 @@ Add the following line to `blacklight.css.scss` file located in `/app/assets/sty
 @import 'blacklight_rtl/blacklight_rtl';
 ```
 
+And finally run `rails server` to see your site on RTL format.
+
 Localization
 ------------
 
