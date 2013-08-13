@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .bundle/
 log/*.log
 pkg/
@@ -6,3 +7,21 @@ test/dummy/db/*.sqlite3-journal
 test/dummy/log/*.log
 test/dummy/tmp/
 test/dummy/.sass-cache
+=======
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
+>>>>>>> 40797f7df16ded41c41d2b9c0264c3d60f07f90d
