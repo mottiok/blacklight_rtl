@@ -1,0 +1,223 @@
+heb:
+  active_record:
+    models:
+      feedback: 'משוב'
+    attributes:
+      feedback:
+        name: 'השם שלך'
+        email: 'האימייל שלך'
+        message: 'ההודעה שלך'
+  views:
+    pagination:
+      first: '&laquo; ראשון'
+      last: 'אחרון &raquo;'
+      previous: '&laquo; הקודם'
+      next: 'הבא &raquo;'
+      truncate: '…'
+
+    pagination_compact:
+      previous: '&laquo; הקודם'
+      next: 'הבא &raquo;'
+
+  blacklight:
+    application_name: 'Blacklight RTL'
+
+    header_links:
+      login: 'התחבר'
+      logout: 'התנתק'
+      bookmarks: 'מועדפים'
+      saved_searches: 'חיפושים שמורים'
+      search_history: 'היסטוריה'
+
+    welcome: 'ברוכים הבאים!'
+    and: 'וגם'
+    or: 'או'
+
+    bookmarks:
+      collection:
+        add:
+          button: 'הוסף למועדפים'
+      title: 'מועדפים'
+      no_bookmarks: 'לא נמצאו מועדפים'
+      add:
+        button: 'מועדף'
+        success:
+          one: 'נוסף בהצלחה למועדפים.'
+          other: 'נוספו בהצלחה למועדפים.'
+        failure:  'מצטערים, חלה תקלה בעת הוספה למועדפים.'
+      remove:
+        button: 'הסר מועדף'
+        success: 'מועדף הוסר בהצלחה.'
+        failure: 'מצטערים, חלה תקלה בעת הסרה ממועדפים.'
+        action_confirm: 'להסיר את המועדף הזה?'
+      clear:
+        action_title: 'נקה מועדפים'
+        action_confirm: 'לנקות את המועדפים?'
+        success: 'המועדפים נמחקו.'
+        failure: 'מצטערים, חלה שגיאה בעת מחיקת המועדפים.'
+      need_login: 'אנא התחבר על מנת לצפות ולערוך את המועדפים שלך.'
+      list_title: 'המועדפים שלך'
+      delete: 'הסר'
+
+    feedback:
+      valid_name: 'דרוש שם משתמש תקין'
+      valid_email: 'דרוש אימייל תקין'
+      need_message: 'דרושה הודעה'
+      submit: 'שלח!'
+      errors:
+        title: 'אנא תקן את השגיאות הבאות:'
+      complete:
+        title: 'תודה רבה על הפידבק!'
+
+    saved_searches:
+      add:
+        success: 'החיפוש נשמר בהצלחה.'
+        failure: 'חלה תקלה בעת שמירת החיפוש הנוכחי.'
+      remove:
+        success: 'החיפוש נמחק בהצלחה.'
+        failure: 'חלה תקלה בעת מחיקת החיפוש הנבחר.'
+      clear:
+        action_title: 'מחק חיפוש שמור'
+        action_confirm: 'האם ברצונך למחוק את החיפוש השמור שבחרת?'
+        success: 'חיפוש שמור נמחק.'
+        failure: 'חלה תקלה בעת מחיקת החיפוש השמור שלך.'
+      title: 'חיפושים שמורים'
+      need_login: 'אנא התחבר על מנת לצפות ולערוך את החיפושים השמורים שלך.'
+      no_searches: 'אין לך חיפושים שמורים'
+      list_title: 'החיפושים השמורים שלך'
+      delete: 'מחק'
+
+    search_history:
+      clear:
+        action_title: 'נקה היסטורית חיפושים'
+        action_confirm: 'האם ברצונך לנקות את ההיסטורית חיפושים שלך?'
+        success: 'היסטורית חיפושים נמחקה בהצלחה.'
+        failure: 'חלה תקלה בעת מחיקת היסטורית החיפושים שלך.'
+      title: 'היסטורית חיפושים'
+      no_history: 'אין לך היסטורית חיפושים'
+      recent: 'החיפושים האחרונים שלך'
+      forget: 'שכח'
+      save: 'שמור'
+
+    tools:
+      title: 'כלים'
+      cite: 'Cite'
+      endnote: 'ייצא ל - EndNote'
+      refworks: 'ייצא ל - Refworks'
+      email: 'שלח דואר אלקטרוני'
+      sms: 'שלח מסרון'
+      librarian_view: 'תצוגת ספריה'
+      clear: 'נקה'
+
+    citation:
+      mla: 'MLA'
+      apa: 'APA'
+      chicago: 'Chicago'
+
+    email:
+      form:
+        title: 'שלח פריט נוכחי בדואר אלקטרוני'
+        to: 'דואר אלקטרוני:'
+        message: 'הודעה:'
+        submit: 'שלח'
+      text:
+        title: 'כותרת: %{value}'
+        author: 'כתב: %{value}'
+        format: 'פורמט: %{value}'
+        language: 'שפה: %{value}'
+        subject:
+          one: 'Item Record: %{title}'
+          other: 'Item records'
+        url: 'קישור: %{url}'
+        message: 'הודעה: %{message}'
+
+      errors:
+        to:
+          invalid: 'אנא הכנס כתובת דואר אלקטרוני תקינה'
+          blank: 'אנא הכנס נמענים על מנת לשלוח את ההודעה'
+    sms:
+      form:
+        title: 'שלח מסרון לטקסט זה'
+        to: 'מספר פלאפון:'
+        carrier: 'מרכזית'
+        carrier_prompt: 'אנא בחר את המרכזית שלך'
+        submit: 'שלח'
+      text:
+        title: '%{value}'
+        author: ' ע"י %{value}'
+        url: 'קישור: %{url}'
+      errors:
+        to:
+          invalid: 'אנא הכנס מספר טלפון תקין בעל 10 ספרות לפחות'
+          blank: "אנא הכנס טלפון נמען על מנת לשלוח את המסרון"
+        carrier:
+          blank: 'אתה מוכרח לבחור מרכזית'
+
+    back_to_search: 'חזור לחיפוש'
+    back_to_bookmarks: 'חזור למועדפים'
+
+    search:
+      title: '%{application_name} תוצאות חיפוש'
+      search_results_header: 'חיפוש'
+      search_results: 'תוצאות חיפוש'
+      errors:
+        request_error: "מצטערים, לא הבנתי את החיפוש שלך."
+        invalid_solr_id: "מצטערים, ביקשת פריט שאיננו קיים במערכת."
+      per_page:
+        label: '%{count}<span class="hide-text"> כל עמוד</span>'
+        button_label: '%{count} כל עמוד'
+        title: 'מספר תוצאות להצגה בכל עמוד'
+        submit: 'עדכן'
+      sort:
+        label: 'מיין לפי %{field}'
+        submit: 'מיין תוצאות'
+      form:
+        search_field:
+          label: 'חפש בתוך'
+          title: 'Targeted search options'
+          post_label: 'בשביל'
+        q: 'חפש...'
+        submit: 'חפש'
+      pagination:
+        title: 'Results navigation'
+      pagination_info:
+        no_items_found: '%{entry_name} לא נמצא'
+        single_item_found: '<strong>1</strong> עד <strong>1</strong> מתוך <strong>1</strong>'
+        pages:
+          one: '<strong>%{start_num}</strong> - <strong>%{end_num}</strong> מתוך <strong>%{total_num}</strong>'
+          other: '<strong>%{start_num}</strong> - <strong>%{end_num}</strong> מתוך <strong>%{total_num}</strong>'
+      entry_pagination_info:
+        one: '<strong>1 מתוך 1</strong>'
+        other: '<strong>%{current}</strong> מתוך <strong>%{total}</strong>'
+      documents:
+        counter: '%{counter}. '
+      facets:
+        title: 'הגבל את החיפוש שלך'
+        sort:
+          count: 'מיון מספרי'
+          index: 'מיון אלפבתי'
+        count: '%{number}'
+        more: 'עוד »'
+        selected:
+          remove: '[הסר]'
+      filters:
+        title: 'חיפשת את:'
+        label: '%{label}:'
+        remove:
+          value: 'הסר מגבלת חיפוש %{value}'
+          label_value: 'הסר מגבלת חיפוש %{label}: %{value}'
+      librarian_view:
+        title: 'תצוגת ספריה'
+        leader: 'מוביל %{leader}'
+      start_over: 'התחל מחדש'
+      show:
+        title: '%{document_title} - %{application_name}'
+      rss_feed: 'RSS לתוצאות'
+      atom_feed: 'Atom לתוצאות'
+      fields:
+        default: 'מילת מפתח'
+
+    entry_name:
+      default: 'כניסה'
+
+    did_you_mean: 'האם התכוונת לרשום: %{options}?'
