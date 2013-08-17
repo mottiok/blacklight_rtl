@@ -21,7 +21,7 @@ Usage
 
 The easiest way to use Blacklight RTL stylesheets is to import the main stylesheet as followed.
 
-Add the following line to `blacklight.css.scss` file located in `/app/assets/stylesheets`:
+Remove the default blacklight import and add the following line to `blacklight.css.scss` file located in `/app/assets/stylesheets`:
 
 ```css
 @import 'blacklight_rtl/blacklight_rtl';
