@@ -10,13 +10,11 @@ Gem::Specification.new do |s|
   s.authors     = ["Matthew Oklander"]
   s.email       = ["mottiokla@gmail.com"]
   s.homepage    = "http://www.o-sandbox.com/"
-  s.summary     = "This is a simple right to left blacklight template."
-  s.description = "This is a simple right to left blacklight template."
+  s.summary     = "Blacklight RTL change the default layout to right to left with optional Hebrew localization language pack."
+  s.description = "Blacklight RTL change the default layout to right to left with optional Hebrew localization language pack."
+  s.license     = "MIT"
+  s.files = Dir["{app,config,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
+  s.add_dependency "blacklight", ">= 4.0.0"
 
-  s.add_dependency "rails", "~> 4.0.0"
-
-  s.add_development_dependency "sqlite3"
 end
