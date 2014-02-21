@@ -1,5 +1,6 @@
 Blacklight RTL
 ==============
+[![Gem Version](https://badge.fury.io/rb/blacklight_rtl.png)](http://badge.fury.io/rb/blacklight_rtl)
 
 Right to Left Layout for [Blacklight 5.x](https://github.com/projectblacklight/blacklight/ "Project Blacklight").
 
