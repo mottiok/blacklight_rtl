@@ -1,12 +1,4 @@
 heb:
-  active_record:
-    models:
-      feedback: 'משוב'
-    attributes:
-      feedback:
-        name: 'השם שלך'
-        email: 'האימייל שלך'
-        message: 'ההודעה שלך'
   views:
     pagination:
       first: '&laquo; ראשון'
@@ -34,9 +26,6 @@ heb:
     or: 'או'
 
     bookmarks:
-      collection:
-        add:
-          button: 'הוסף למועדפים'
       title: 'מועדפים'
       no_bookmarks: 'לא נמצאו מועדפים'
       add:
@@ -58,16 +47,6 @@ heb:
       need_login: 'אנא התחבר על מנת לצפות ולערוך את המועדפים שלך.'
       list_title: 'המועדפים שלך'
       delete: 'הסר'
-
-    feedback:
-      valid_name: 'דרוש שם משתמש תקין'
-      valid_email: 'דרוש אימייל תקין'
-      need_message: 'דרושה הודעה'
-      submit: 'שלח!'
-      errors:
-        title: 'אנא תקן את השגיאות הבאות:'
-      complete:
-        title: 'תודה רבה על הפידבק!'
 
     saved_searches:
       add:
@@ -106,7 +85,6 @@ heb:
       refworks: 'ייצא ל - Refworks'
       email: 'שלח דואר אלקטרוני'
       sms: 'שלח מסרון'
-      librarian_view: 'תצוגת ספריה'
       clear: 'נקה'
 
     citation:
@@ -131,6 +109,8 @@ heb:
         url: 'קישור: %{url}'
         message: 'הודעה: %{message}'
 
+      success: "אימייל נשלח"
+
       errors:
         to:
           invalid: 'אנא הכנס כתובת דואר אלקטרוני תקינה'
@@ -146,12 +126,14 @@ heb:
         title: '%{value}'
         author: ' ע"י %{value}'
         url: 'קישור: %{url}'
+      success: "מסרון נשלח"
       errors:
         to:
           invalid: 'אנא הכנס מספר טלפון תקין בעל 10 ספרות לפחות'
           blank: "אנא הכנס טלפון נמען על מנת לשלוח את המסרון"
         carrier:
           blank: 'אתה מוכרח לבחור מרכזית'
+          invalid: "אתה מוכרח להכניס מרכזית תקינה"
 
     back_to_search: 'חזור לחיפוש'
     back_to_bookmarks: 'חזור למועדפים'
@@ -200,22 +182,37 @@ heb:
         more: 'עוד »'
         selected:
           remove: '[הסר]'
+      group:
+        more: 'עוד »'
       filters:
         title: 'חיפשת את:'
         label: '%{label}:'
         remove:
           value: 'הסר מגבלת חיפוש %{value}'
           label_value: 'הסר מגבלת חיפוש %{label}: %{value}'
-      librarian_view:
-        title: 'תצוגת ספריה'
-        leader: 'מוביל %{leader}'
       start_over: 'התחל מחדש'
+      index:
+        label: '%{label}:'
       show:
         title: '%{document_title} - %{application_name}'
-      rss_feed: 'RSS לתוצאות'
-      atom_feed: 'Atom לתוצאות'
+        label: '%{label}:'
+      rss_feed: 'RSS for results'
+      atom_feed: 'Atom for results'
       fields:
-        default: 'מילת מפתח'
+        default: 'מילת חיפוש'
+      bookmarks:
+        present: "נמצא במועדפים"
+        absent: "הוסף למועדפים"
+        inprogress: "שומר..."
+      zero_results:
+        title: "לא נמצאו תוצאות עבור החיפוש שלך"
+        modify_search: "אנא נסה לשנות את החיפוש"
+        use_fewer_keywords: "התחל עם שאילתת חיפוש קצרה יותר וסנן את התוצאות שהתקבלו ע'י הסינון שנמצא בצד ימין."
+        search_fields: "החיפוש שלך התבצע על %{search_fields}"
+        search_everything: "נסה לחפש ללא סינון"
+      view_title: "הצג תוצאות כ: "
+      view:
+        list: "רשימה"
 
     entry_name:
       default: 'כניסה'
