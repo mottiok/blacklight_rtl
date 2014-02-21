@@ -1,7 +1,9 @@
 Blacklight RTL
 ==============
 
-Right to Left Layout for the [Blacklight 5.x](https://github.com/projectblacklight/blacklight/ "Project Blacklight").
+Right to Left Layout for [Blacklight 5.x](https://github.com/projectblacklight/blacklight/ "Project Blacklight").
+
+![Preview](doc/preview.PNG)
 
 Installation
 ------------
