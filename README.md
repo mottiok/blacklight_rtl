@@ -8,9 +8,24 @@ Right to Left Layout for [Blacklight 5.x](https://github.com/projectblacklight/b
 
 Installation
 ------------
-Just add to your application's Gemfile `gem 'blacklight_rtl'` and run `bundle install`.
 
-Replace the default import in `blacklight.css.scss` to `@import 'blacklight_rtl/blacklight_rtl';` and that's it :]
+Add Blacklight RTL to your `Gemfile`:
+
+```ruby
+gem "blacklight_rtl"
+```
+
+Run bundle install to download the latest version:
+
+```ruby
+bundle install
+```
+
+Change the default import statment in `blacklight.css.scss` to:
+
+```ruby
+@import 'blacklight_rtl/blacklight_rtl';
+```
 
 Localization
 ------------
